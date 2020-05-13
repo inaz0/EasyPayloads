@@ -20,6 +20,7 @@ The write of some payloads are very very long, like you can seen to this URL : h
 
 So i'll decided to make it simple an write a script to convert, our PHP payload code to string can bypass this restriction.
 
+## Usage 
 To use it, that was simple, edit the code modify this two lines : 
 
 ```php
@@ -32,3 +33,8 @@ Output example :
 
 ![](img/php_eval_payload_output.png)
 
+## todo 
+
+* Possible to add the " caracters
+* Adding time for payload generating
+* Adding percent evolution for big payload
