@@ -25,7 +25,7 @@ To use it, that was simple, edit the code modify this two lines :
 
 ```php
 $payloadToEncode  = '$_=\'scandir\';$__=\'var_dump\';$__($_(\'./\'));';
-$regexExcludeChar = '/[a-z]|[0-9]/i ';
+$regexExcludeChar = '/[a-z]|[0-9]/i';
 ```
 And run the php code with php-cli or in your webserveur, the php code will print at the end the full payload.
 
@@ -38,3 +38,4 @@ Output example :
 * Possible to add the " caracters
 * Adding time for payload generating
 * Adding percent evolution for big payload
+* Possibility to change the ` for the XOR
