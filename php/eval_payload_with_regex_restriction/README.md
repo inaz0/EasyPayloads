@@ -26,6 +26,9 @@ To use it, that was simple, edit the code modify this two lines :
 $payloadToEncode  = '$_=\'scandir\';$__=\'var_dump\';$__($_(\'./\'));';
 $regexExcludeChar = '/[a-z]|[0-9]/i ';
 ```
+And run the php code with php-cli or in your webserveur, the php code will print at the end the full payload.
 
-And run the php code with php-cli or in your webserveur.
+Output example :
+
+![](img/php_eval_payload_output.png)
 
